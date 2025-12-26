@@ -15,7 +15,8 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex items-center justify-between px-8 py-5 bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
+      <nav className="flex items-center justify-between px-8 py-5 bg-white shadow-sm border-b border-gray-100         <TopAnnouncement />
+          <Navbar />">
         {/* Logo */}
         <div className="text-2xl font-bold text-emerald-800 tracking-tight">
           AI<span className="text-emerald-500 underline decoration-2 underline-offset-4">Store</span>
